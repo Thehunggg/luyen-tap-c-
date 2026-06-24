@@ -2,6 +2,8 @@
 // Thư viện để nhập/xuất dữ liệu (dùng cho lệnh cout
 #include<cmath>
 // Thư viện để sử dụng các hàm toán học (dùng cho lệnh pow)
+#include<iomanip>
+//thư viện để dung hàm setprecision
 using namespace std;
 // Khai báo không gian tên chuẩn để sử dụng các hàm và đối tượng trong thư
 //exchange rates source form  https://www.fiscal.treasury.gov/reports-statements/treasury-reporting-rates-exchange/current.html
@@ -26,8 +28,11 @@ int main() {
     cin>>yen;
     // in ra so tien yen nhat maf nguoi dung nhap
     dollars=(vnd/evnd)+(yen/eyen);
+    //lam tron so tien den 4 chu so
+      cout<<fixsetprecision(4)<<endl;
     //tinh ra so tien dollar
     cout<<"US Dollars=$"<<dollars<<"\n";
+  
     return 0;
 }
 
