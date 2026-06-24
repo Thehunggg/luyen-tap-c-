@@ -1,5 +1,9 @@
 #include <iostream>  // Thư viện để dùng cout, endl
 #include <climits>   // Thư viện để dùng INT_MAX, INT_MIN
+//int la kiểu dữ liệu nguyên, có thể lưu trữ các số nguyên từ -2,147,483,648 đến 2,147,483,647  
+//short là kiểu dữ liệu nguyên nhỏ hơn int, có thể lưu trữ các số nguyên từ -32,768 đến 32,767  
+//float là kiểu dữ liệu số thực, có thể lưu trữ các số thực với độ chính xác thấp hơn double    
+
 
 using namespace std; // Giúp viết cout, endl ngắn gọn hơn, không cần std::
 
@@ -30,7 +34,7 @@ int main() {
     cout << typeid(kytu).name() << endl; // in ra kieu du lieu cua bien kytu
     cout << typeid(cannang).name() << endl; // in ra kieu du lieu cua bien cannang
     cout << typeid(chieucao).name() << endl; // in ra kieu du lieu cua bien chieucao
-    
+
 
 
     
