@@ -25,6 +25,7 @@ int main() {
     char kytu= 'A';
     int cannang = 50;
     float chieucao = 1.75F;  
+    cout
 
     //kiem tra kieu du lieu
     cout << typeid(toan).name() << endl; // in ra kieu du lieu cua bien toan
